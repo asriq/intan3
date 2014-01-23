@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/jquery.mobile.structure-1.4.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="themes/jquery.mobile.icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="themes/mystyle.min.css" rel="stylesheet" type="text/css"/>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+
+</head>
+
+<body background-color="red">
+<!--Step 1 aka Page 1 -->
+<div data-role="page" id="page1" >
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+  </div>  
+  <!--content -->
+  <div role="main" class="ui-content">
+	<center>
+	<h3>Tentera Darat Malaysia</h3>
+	<marquee><strong>:: Selamat Datang Ke Halaman Web Site Tentera Darat :: </strong></marquee>
+	<div align="center"><img src="gambar/darat.jpg"/></div>
+	<strong>LAMAN WEB MOBILE RASMI TENTERA DARAT</strong>
+    </center>
+	<br/>
+    <a href="#page2" data-role="button" data-icon="grid" data-transition="turn">Masuk</a>
+	<a href="#page4" class="ui-btn ui-icon-grid ui-btn-icon-text ui-corner-all" data-transition="turn">Directori Pegawai Kanan</a>
+	<a href="#page3" class="ui-btn" data-transition="turn">Piagam</a>
+
+  </div>
+  
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+  </div>
+
+</div>
+
+<!--Step 2 aka Page 2 -->
+<div data-role="page" id="page2" >
+	<div data-role="panel" id="mypanel" data-display="overlay">
+	<h3>Senarai Maklumat Dibawah</h3>
+	<br/>
+	<ul data-role="listview">
+		<li><a href="luar1.html" data-transition="turn">Luar1</a></li>
+		<li><a href="luar2.html" data-transition="turn">Luar2</a></li>
+		<li><a href="luar3.html" data-transition="turn">Luar3</a></li>
+	</ul>
+	</div><!-- /panel -->
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	<a href="#mypanel" data-icon="bars" data-iconpos = "notext"> menu</a>
+	<h3>Sejarah</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+	<a href="#page1" data-role= "button" data-inline="true" data-transition="turn" data-icon="home">Utama</a>
+	<a href="#popup1" data-role="button" data-inline="true" data-icon="info" data-rel="popup" data-transition="turn">Visi & Misi</a>
+	<a href="#page3" data-role= "button" data-inline="true" data-transition="turn" data-icon="arrow-r">Piagam</a>
+
+ 
+	
+	<div data-role="popup" id="popup1">
+	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">close</a>
+	<div data-role="header">
+	<h3>Visi Dan Misi</h3>
+	</div>
+	  <div role="main" class="ui-content">
+	<h3>Wawasan. </h3>
+	<p>Satu Angkatan Darat yang moden, kredibel, seimbang, mampu dan bersedia melaksanakan misinya sebagai sebahagian daripada Angkatan Tentera Malaysia.</p>
+	<h3>Misi.</h3>
+	<p>Mempertahankan kedaulatan Malaysia dan kepentingannya daripada ancaman luar dan membantu pihak berkuasa awam untuk mencapai keamanan dan kemakmuran negara.<p>
+
+	<h3>Matlamat.</h3>
+	<p>Menentukan tahap kesiagaan yang tinggi (high state of readiness) dan mampu melaksanakan pelbagai bentuk misi dalam pelbagai dimensi (multi mission capable) bagi mempertingkatkan perkhidmatan kepada rakyat dan negara.</p>
+	<a href="#page2" data-role="button" data-inline="true" data-icon="arrow-l">Sejarah</a><a href="#page3" data-role="button" data-inline="true" data-icon="arrow-r">Piagam</a>
+	</div>
+	</div>
+ 
+	<h3>Permulaan</h3> 
+	Sejarah Tentera Darat Malaysia bermula dengan usaha untuk menubuhkan satu pasukan pertahanan yang dianggotai oleh anak-anak Melayu.  Usaha ini bermula semenjak tahun 1902 lagi.  Banyak perbincangan oleh Raja-Raja Melayu dan Penasihat-Penasihat British telah dijalankan bagi mengujudkan pasukan ini.  Dalam tahun 1913 Almarhum DYMM Yang Dipertuan Besar Negeri Sembilan, Tunku Muhamad ibni Yam Tunku Antah, Almarhum DYMM Sultan Perak, Sultan Alang Iskandar Shah, Almarhum Raja Di Hilir Perak, Raja Sir Chulan dan Allahyarham Undang Rembau, Datuk Abdullah bin Haji Damad telah menyuarakan hasrat menubuhkan pasukan Askar Melayu.
+	
+	<table>
+	<tr>
+	<td><img src="gambar/antah.gif"></td>
+	<td><img src="gambar/Alan.gif"/><td>
+	<td><img src="gambar/dahan.gif"></td>
+	<td><img src="gambar/Chulan.gif"/><td>
+	</tr>
+	</table>
+
+	Hasrat Raja-Raja ini telah menjadi kenyataan apabila di dalam Persidangan Majlis Mesyuarat Persekutuan pada 23 Januari 1933, Rang Undang-Undang Askar Melayu telah diluluskan dan dikenali sebagai Undang-Undang No. 11.
+	<br/><br/>
+	Bagi menyahut seruan untuk mempertahankan ibu pertiwi, lebih dari seribu pemuda-pemuda Melayu tampil dari pelusuk tanahair telah tampil menawarkan khidmat mereka, tetapi hanya 25 orang sahaja yang berjaya dipilih sebagai pengasas Kompeni Percubaan Pasukan Askar Melayu.  Mereka telah diarahkan untuk melapor diri ke Haig Lines (sekarang IPDA), Port Dickson untuk memulakan latihan pada 1 Mac 1933.
+	<br/><br/>
+	Pertama ini telah menjalankan latihan dengan gigih dan penuh tabah, dan pihak pegawai-pegawai British, selaku jurulatih sangat berpuas hati dengan kebolehan, kecekapan serta semangat keperwiraan yang ditunjukkan.  Pada pertengahan tahun 1934, Kompeni Percubaan telah diistiharkan sebagai berjaya dengan cemerlangnya dan layak diperbesarkan ke satu batalion yang lengkap.  Seterusnya buat julung kali, pada 4 Nov 1936, seramai empat pemuda anggota Skuad Pertama telah ditauliahkan sebagai pegawai dengan pangkat Leftenan Muda.  Mereka adalah No. 8 Ariffin bin Haji Sulaiman, No. 12 Ibrahim bin Sidek, No 13 Ismail bin Tahar dan No. 25 Raja Lope Nor Rashid bin Raja Abdul Rahman.
+	<br><br/>
+	Dengan tercetusnya peprangan di Eropah pada 3 Sep 1939, latihan anggota Askar Melayu telah dipertingkatkan dan kekuatannya diperbesarkan.  Pada 1 Dis 1941, Batalion Kedua Askar Melayu telah ditubuhkan bagi menghadapi serangan Tentera Jepun yang sedang mara.  Kompeni A, Batalion Kedua adalah unit Askar Melayu pertama menentang Tentera Jepun yang mendarat di Pantai Cinta Berahi (sekarang Pantai Cahaya Bulan), Kelantan pada 8 Dis 1941.  Kekuatan Tentera Jepun yang berlipat ganda telah memaksa Kompeni tersebut berundur ke Kuala Krai dan seterusnya Singapura.  Di Singapura, Batalion Pertama dan Kedua Askar Melayu telah berjuang bersama Tentera British menentang kemaraan musuh.  Askar Melayu telah berjuang dengan penuh semangat di sekitar kawasan Pasir Panjang, Buona Vista, Labrador dan Alexander.
+	<br><br/>
+	Satu peritiwa yang sukar dilupai dalam sejarah Tentera Darat ialah peristiwa indakan Tentera Jepun menawan Bukit Chandu yang dipertahankan oleh Platun No. 7, Kompeni C, Batalion Pertama Askar Melayu yang diketuai oleh Lt Adnan bin Saidi.  Tentera musuh, setelah gagal dalam percubaan yang pertama, mengulangi serangan dengan kekuatan yang berlipat ganda.  Di dalam pertempuran yang sengit ini, anggota Platun No. 7 telah berjuang dengan semangat yang gigih tanpa mengaku kalah.  Lt Adnan sendiri mengandalikan senjata Lewis Machinegun dan mara mara untuk memberi semangat dan perangsang.  Waklaupun mengalami kecederaan, namun beliau telah menunjukkan semangat untuk terus berjuang hingga ke titisan darah terakhir.  Akhirnya tentera musuh telah berjaya menawan Bukit Chandu dan Lt Adnan telah ditikam dengan benet dan mayat beliau digantung kepala ke bawah disebatang pokok.
+
+
+  </div>
+   <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+            <ul>
+                <li><a href="#page2" data-icon="grid" class="ui-btn-active ui-state-persist">Sejarah</a></li>
+                <li><a href="#page3" data-icon="star" >Piagam</a></li>
+                <li><a href="#page4" data-icon="gear">Direktori</a></li>
+            </ul>
+        </div><!-- /navbar -->
+  </div>
+
+</div>
+  
+  <div data-role="page" id="page3">
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	<h3> Piagam Pelanggan</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  <a href="#page1" data-role="button" data-icon="home" data-inline="true" data-transition="turn">Utama</a>
+  <a href="#page2" data-role="button" data-icon="arrow-l" data-inline="true" data-transition="turn">Sejarah</a>
+  <p>
+  <br/>
+  <div data-role="collapsible-set">
+	  <div data-role="collapsible">
+		<h4>Pertahanan Negara</h4>
+		<p>Melindungi dan mempertahankan kedaulatan dan keselamtan daratan negara.</p>
+	 </div>
+	 <div data-role="collapsible">
+	 <h4>Kesiapsiagaan</h4>
+		<p>Memperkasakan kesiapsiagaan tempur pada sebilang masa bagi menangani sebarang bentuk ancaman.</p>
+	 </div>
+	 <div data-role="collapsible">
+		<h4>Latihan dan Sumber Manusia</h4>
+		<p>Memastikan sistem latihan yang komprehensif untuk membangunkan modal insan yang profesional dan kompeten untuk melaksanakan tugas dalam semua situasi.</p>
+	 </div>
+	 <div data-role="collapsible">
+	 <h4>Akal Budi Ketenteraan</h4>
+		<p>Mempertingkatkan semangat kesatuan 1 Jiwa Tentera Darat melalui pembangunan sahsiah diri bagi mengukuhkan kematangan akal budi ketenteraan (military mind).</p>
+	 </div>
+	 <div data-role="collapsible">
+	 <h4>Pengurusan Aset/Peralatan Ketenteraan</h4>	
+		<p>Menjamin sistem pengurusan aset yang berkesan, cekap dan berhemah bagi menyokong perlaksanaan tugas.</p>
+	 </div>
+	 <div data-role="collapsible">
+	 <h4>Pembangunan Negara</h4>
+		<p>Mendukung dasar-dasar kerajaan sesuai dengan aspirasi nasional untuk membangunkan negara.</p>
+	 </div>
+	 <div data-role="collapsible">
+	 <h4>MOOTW/CIMIC</h4>
+		<p>Memperkukuhkan kerjasama dan keupayaan bersama dengan agensi Kerajaan dan masyarakat demi kepentingan negara.</p>
+	 </div>
+	 <div data-role="collapsible">
+	 <h4>Penugasan Istiadat</h4>
+	  <p>Membantu negara dalam penugasan istiadat.</p>
+	  </div>
+  </div>
+  </p>
+  </div>
+  
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+            <ul>
+                <li><a href="#page2" data-icon="grid">Sejarah</a></li>
+                <li><a href="#page3" data-icon="star" class="ui-btn-active ui-state-persist" >Piagam</a></li>
+                <li><a href="#page4" data-icon="gear">Direktori</a></li>
+            </ul>
+        </div><!-- /navbar -->
+  </div>
+  </div>
+  
+  
+   <div data-role="page" id="page4">
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	<h3> Piagam Pelanggan</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  <a href="#page1" data-role="button" data-icon="home" data-inline="true" data-transition="turn">Utama</a>
+  <a href="#page2" data-role="button" data-icon="arrow-l" data-inline="true" data-transition="turn">Sejarah</a>
+  <ul data-role="listview" data-filter="true" data-filter-placeholder="Taipkan Nama">
+  <li><a href="#popag1" data-rel="popup" data-transition="flip">
+	<img src="gambar/ptd.jpg" width="150"/>
+  <h6>JENERAL DATUK RAJA MOHAMED AFFANDI BIN RAJA MOHAMED NOOR </h6> 
+  </a>
+  </li>
+  <li>
+  <img src="gambar/tptd.jpg" width="150"/>
+  <h6>Lt Jen dato Hasbullah</h6> 
+  </li>
+  <li>
+  <img src="gambar/rsm.jpg" width="150"/>
+  <h6>PW 1 Asriq</h6>
+	<p>
+	<a href="+0320716657" class="ui-btn ui-icon-phone ui-btn-icon-notext ui-corner-all ui-btn-inline">Telefon</a>
+	<a href="sms://+0127521467" class="ui-btn ui-icon-mail ui-btn-icon-notext ui-corner-all ui-btn-inline">SMS</a>
+	<a href="mailto:mohdasriqayob@gmail.com" class="ui-btn ui-icon-mail ui-btn-icon-notext ui-corner-all ui-btn-inline">mail</a>
+   </p>
+	</li>
+  </ul>
+  </p>
+  
+  <div id="popag1" data-role="popup">
+	<a href="+0320715358" class="ui-btn ui-icon-phone ui-btn-icon-notext ui-corner-all ui-btn-inline">Telefon</a>
+	<a href="sms://+1027521483" class="ui-btn ui-icon-action ui-btn-icon-notext ui-corner-all ui-btn-inline">SMS</a>
+	<a href="mailto:mohdasriqayob@gmail.com" class="ui-btn ui-icon-mail ui-btn-icon-notext ui-corner-all ui-btn-inline">Mail</a>
+  </div>
+  <div id="popag2">
+	<a href="+0320715358" class="ui-btn ui-icon-phone ui-btn-icon-notext ui-corner-all ui-btn-inline">Telefon</a>
+	<a href="sms://+1027521483" class="ui-btn ui-icon-action ui-btn-icon-notext ui-corner-all ui-btn-inline">SMS</a>
+	<a href="mailto:mohdasriqayob@gmail.com" class="ui-btn ui-icon-mail ui-btn-icon-notext ui-corner-all ui-btn-inline">Mail</a>
+  </div>
+  </div>
+  
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+            <ul>
+                <li><a href="#page2" data-icon="grid">Sejarah</a></li>
+                <li><a href="#page3" data-icon="star" >Piagam</a></li>
+                <li><a href="#page4" data-icon="gear" class="ui-btn-active ui-state-persist">Direktori</a></li>
+            </ul>
+        </div><!-- /navbar -->
+  </div>
+
+
+</div>
+
+
+
+
+</body>
+</html>
+
